@@ -1,0 +1,2 @@
+# Python: Silently Ignoring Exceptions During Data Processing
+This repository demonstrates a common but subtle error in Python: silently ignoring exceptions during data processing.  The `bug.py` file contains code that catches exceptions but merely prints an error message and continues, potentially leading to unexpected and inaccurate results.  The solution, `bugSolution.py`, shows how to handle this situation more robustly.
